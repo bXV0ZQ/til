@@ -1,0 +1,11 @@
+= Retrieve args used to launch a process
+
+We sometimes need to know which command line has been used to launch a process.
+
+To retrieve the entire command, just issue: `ps -p <pid> -o args` and you will get:
+```
+COMMAND
+<the command line used to launch the process>
+```
+
+If you need to parse it programmatically, just pipe it with sed: `ps -p <pid> -o args | sed -n '2p'` to retrieve only the second line.
