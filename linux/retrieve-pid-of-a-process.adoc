@@ -1,0 +1,6 @@
+= Retrieve pid of a process
+
+When you need to quickly retrieve the pid of a process from its name, just give a try to: `pidof`.
+
+`pidof <process-name>` will return all process ids of processes named `<process-name>`.
+
