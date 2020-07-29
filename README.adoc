@@ -13,12 +13,12 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 === Categories
 
-* <<Linux>>
+* <<shell>>
 
-=== Linux
+=== Shell [[shell]]
 
-* link:linux/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process]
-* link:linux/retrieve-pid-of-a-process.adoc[Retrieve pid of a process]
+* link:shell/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process]
+* link:shell/retrieve-pid-of-a-process.adoc[Retrieve pid of a process]
 
 == Other intresting TILs
 
