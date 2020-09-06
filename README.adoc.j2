@@ -1,0 +1,31 @@
+= Today I Learned... (TIL)
+
+Inspired from https://github.com/simonw/til[simonw's TILs] and discovered through his https://simonwillison.net/2020/Jul/10/self-updating-profile-readme/[self-update README blog post].
+
+As per jbranchaud definition, TILs are:
+
+[quote, jbranchaud, https://github.com/jbranchaud/til]
+A collection of concise write-ups on small things I learn day to day across a variety of languages and technologies. These are things that don't really warrant a full blog post.
+
+== My TILs
+
+{{ til.count }} TILs so far
+
+=== Topics
+
+{% for topic in til.topics -%}
+* <<{{topic.anchor}},{{topic.title}}>> ({{topic.count}})
+{% endfor %}
+{%- for topic in til.topics %}
+=== {{topic.title}} [[{{topic.anchor}}]]
+
+{% for entry in topic.entries -%}
+* link:{{entry.link}}[{{entry.title}}] _(updated: {{entry.updated}})_
+{% endfor -%}
+{% endfor %}
+== Other intresting TILs
+
+* https://github.com/simonw/til
+* https://github.com/jbranchaud/til
+* https://github.com/jwworth/til
+* https://github.com/thoughtbot/til
