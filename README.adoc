@@ -25,7 +25,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 * link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
 
-== Other intresting TILs
+== Other interesting TILs
 
 * https://github.com/simonw/til
 * https://github.com/jbranchaud/til
