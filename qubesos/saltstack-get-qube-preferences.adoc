@@ -1,0 +1,3 @@
+= Get Qube preferences with SaltStack
+
+Just open a terminal in `dom0` and execute following command: `sudo qubesctl qvm.prefs <vm_name> list=[*]` where `<vm_name>` is the name of the targeted qube.
