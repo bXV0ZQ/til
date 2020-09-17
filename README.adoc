@@ -9,21 +9,22 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 == My TILs
 
-3 TILs so far
+4 TILs so far
 
 === Topics
 
+* <<qubesos,qubesos>> (2)
 * <<shell,shell>> (2)
-* <<qubesos,qubesos>> (1)
+
+=== qubesos [[qubesos]]
+
+* link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
+* link:qubesos/saltstack-get-qube-preferences.adoc[Get Qube preferences with SaltStack] _(updated: 2020-09-17)_
 
 === shell [[shell]]
 
 * link:shell/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process] _(updated: 2020-07-29)_
 * link:shell/retrieve-pid-of-a-process.adoc[Retrieve pid of a process] _(updated: 2020-07-29)_
-
-=== qubesos [[qubesos]]
-
-* link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
 
 == Other interesting TILs
 
