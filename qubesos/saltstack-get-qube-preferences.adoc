@@ -1,3 +1,10 @@
-= Get Qube preferences with SaltStack
+= Get Qube preferences and features with SaltStack
 
-Just open a terminal in `dom0` and execute following command: `sudo qubesctl qvm.prefs <vm_name> list=[*]` where `<vm_name>` is the name of the targeted qube.
+Just open a terminal in `dom0` and execute following commands:
+
+* For preferences: `sudo qubesctl qvm.prefs <vm_name>`
+* For features: `sudo qubesctl qvm.features <vm_name>`
+
+Where `<vm_name>` is the name of the targeted qube.
+
+Source code can be viewed at `/srv/salt/_modules/ext_module_qvm.py`.
