@@ -19,7 +19,7 @@ A collection of concise write-ups on small things I learn day to day across a va
 === qubesos [[qubesos]]
 
 * link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
-* link:qubesos/saltstack-get-qube-preferences.adoc[Get Qube preferences with SaltStack] _(updated: 2020-09-17)_
+* link:qubesos/saltstack-get-qube-preferences.adoc[Get Qube preferences and features with SaltStack] _(updated: 2020-09-20)_
 
 === shell [[shell]]
 
