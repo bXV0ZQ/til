@@ -1,0 +1,14 @@
+= Debug SaltStack state
+
+When executing a state on `dom0`, just replace `qubesctl` by `salt-call -l debug` to get more insight on what happen during the state execution.
+
+It is better to limit this usage to the execution of a single state with `state.sls`.
+
+As an example:
+```bash
+sudo qubesctl state.sls path.to.my.state test=True
+```
+would become:
+```bash
+sudo salt-call -l debug state.sls path.to.my.state test=True
+```
