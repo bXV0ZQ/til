@@ -1,0 +1,8 @@
+= Get info about hardware
+
+In order to retrieve info about the hardware, just issue following command (requires root):
+```bash
+sudo dmidecode
+```
+
+It will give you many info about CPU and memory but also BIOS, manufacturer ...
