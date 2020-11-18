@@ -9,17 +9,18 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 == My TILs
 
-7 TILs so far
+8 TILs so far
 
 === Topics
 
-* <<shell,shell>> (2)
+* <<shell,shell>> (3)
 * <<qubesos,qubesos>> (4)
 * <<git,git>> (1)
 
 === shell [[shell]]
 
 * link:shell/retrieve-pid-of-a-process.adoc[Retrieve pid of a process] _(updated: 2020-07-29)_
+* link:shell/get-info-about-hardware.adoc[Get info about hardware] _(updated: 2020-11-18)_
 * link:shell/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process] _(updated: 2020-07-29)_
 
 === qubesos [[qubesos]]
