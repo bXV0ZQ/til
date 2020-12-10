@@ -3,6 +3,7 @@
 We sometimes need to know which command line has been used to launch a process.
 
 To retrieve the entire command, just issue: `ps -p <pid> -o args` and you will get:
+
 ```
 COMMAND
 <the command line used to launch the process>
