@@ -4,4 +4,6 @@ We sometimes want to `git diff` or `git add --patch` a new file.
 
 Before being able to do so, you need to indicate git you will add the file later but you need to create an entry right now with the command: `git add -N <filename>`.
 
+Using prezto aliases: `gia -N <filename>`.
+
 See https://git-scm.com/docs/git-add for more details.
