@@ -1,0 +1,23 @@
+= Create branch to submit a PR to upstream
+
+Pre-requesite: link:track-upstream.adoc[Tracking upstream]
+
+Create a branch and cherry-pick interresting commits to push to upstream through a pull request (PR) with following commands:
+
+```bash
+git checkout -b fix-something
+git reset --hard upstream/master
+git cherry-pick --no-commit <interresting-commit-hash>
+git push --set-upstream origin "$(git-branch-current 2> /dev/null)"
+```
+
+Then go to Github and create a PR to upstream repository.
+
+Using prezto aliases:
+
+```bash
+gbc fix-something
+gwR upstream/master
+gcP <interresting-commit-hash>
+gpc
+```

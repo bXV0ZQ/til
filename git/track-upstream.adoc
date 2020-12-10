@@ -1,0 +1,13 @@
+= Tracking upstream
+
+We you need to track an upstream git repo after a fork, just add it as a remote branch:
+
+```bash
+git remote add --track <branchtotrack> upstream git@github.com:<orga>/<repo>.git
+```
+
+Using prezto aliases:
+
+```bash
+gRa --track <branchtotrack> upstream git@github.com:<orga>/<repo>.git
+```
