@@ -9,30 +9,33 @@ A collection of concise write-ups on small things I learn day to day across a va
 
 == My TILs
 
-8 TILs so far
+11 TILs so far
 
 === Topics
 
+* <<git,git>> (4)
 * <<shell,shell>> (3)
 * <<qubesos,qubesos>> (4)
-* <<git,git>> (1)
-
-=== shell [[shell]]
-
-* link:shell/retrieve-pid-of-a-process.adoc[Retrieve pid of a process] _(updated: 2020-07-29)_
-* link:shell/get-info-about-hardware.adoc[Get info about hardware] _(updated: 2020-11-18)_
-* link:shell/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process] _(updated: 2020-07-29)_
-
-=== qubesos [[qubesos]]
-
-* link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
-* link:qubesos/saltstack-debug-state.adoc[Debug SaltStack state] _(updated: 2020-11-01)_
-* link:qubesos/look-for-available-templates.adoc[Look for available templates] _(updated: 2020-11-02)_
-* link:qubesos/saltstack-get-qube-preferences.adoc[Get Qube preferences and features with SaltStack] _(updated: 2020-09-23)_
 
 === git [[git]]
 
-* link:git/intent-to-add-a-file.adoc[Intent to add a file] _(updated: 2020-09-23)_
+* link:git/track-upstream.adoc[Tracking upstream] _(updated: 2020-12-10)_
+* link:git/merge-upstream.adoc[Merge upstream] _(updated: 2020-12-10)_
+* link:git/submit-pr.adoc[Create branch to submit a PR to upstream] _(updated: 2020-12-10)_
+* link:git/intent-to-add-a-file.adoc[Intent to add a file] _(updated: 2020-12-10)_
+
+=== shell [[shell]]
+
+* link:shell/get-info-about-hardware.adoc[Get info about hardware] _(updated: 2020-11-18)_
+* link:shell/retrieve-pid-of-a-process.adoc[Retrieve pid of a process] _(updated: 2020-07-29)_
+* link:shell/retrieve-args-used-to-launch-a-process.adoc[Retrieve args used to launch a process] _(updated: 2020-12-10)_
+
+=== qubesos [[qubesos]]
+
+* link:qubesos/look-for-available-templates.adoc[Look for available templates] _(updated: 2020-11-02)_
+* link:qubesos/saltstack-debug-state.adoc[Debug SaltStack state] _(updated: 2020-12-10)_
+* link:qubesos/ethernet-wifi-usb-adapters-limited-support.adoc[Limited support for ethernet/wifi USB adapters] _(updated: 2020-08-12)_
+* link:qubesos/saltstack-get-qube-preferences.adoc[Get Qube preferences and features with SaltStack] _(updated: 2020-09-23)_
 
 == Other interesting TILs
 
